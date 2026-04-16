@@ -26,10 +26,9 @@ app.post("/chat", async (req, res) => {
         messages: [
           {
             role: "system",
-            content: "You are Qynx A very smart AI developed by Enli Which is owned by Saarth Sujeet Biradar for his friends Kushal Zade, Ark Sonawane, and Shlok Sindhwani."
-          },
+            content: "You are Qynx A very smart AI developed by Enli Which is owned by Saarth Sujeet Parkers"
           {
-            role: "user",
+          role: "user",
             content: message
           }
         ]
